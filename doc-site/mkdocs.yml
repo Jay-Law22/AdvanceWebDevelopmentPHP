@@ -1,0 +1,63 @@
+site_name: HelpDesk Lite Documentation
+site_description: Developer handbook, PHP reference, architecture, and assessment guide
+site_url: http://localhost:8081/
+
+theme:
+  name: material
+  language: en
+
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.select
+
+  palette:
+    # Light mode: the toggle displays a sun.
+    - scheme: default
+      primary: grey
+      accent: blue grey
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Dark mode: the toggle displays a moon.
+    - scheme: slate
+      primary: grey
+      accent: blue grey
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - tables
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Architecture:
+      - Application Structure: architecture/application-structure.md
+  - Development:
+      - Docker Commands: development/docker-commands.md
+  - PHP:
+      - PHP Reference: php/php-reference.md
+  - Security:
+      - Security Controls: security/security-controls.md
+  - Assessment:
+      - Rubric Checklist: assessment/rubric-checklist.md

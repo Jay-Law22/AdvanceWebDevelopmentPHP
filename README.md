@@ -170,7 +170,7 @@ The `assessment-data.sql` and `ERD.png` paths represent the assessment deliverab
 Clone the GitHub repository:
 
 ```bash
-git clone [INSERT_GITHUB_REPOSITORY_URL]
+git clone https://github.com/Jay-Law22/AdvanceWebDevelopmentPHP.git
 ```
 
 Navigate into the project directory:

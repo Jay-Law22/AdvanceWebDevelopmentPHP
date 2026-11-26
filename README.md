@@ -268,14 +268,14 @@ The following evaluation accounts are provided for demonstrating the application
 
 | Account | Role | Login email |
 |---|---|---|
-| Evaluation Administrator | Administrator | [Insert administrator email] |
-| Evaluation Support Agent | Support Agent | [Insert agent email] |
-| Evaluation Requester 1 | Requester | [Insert requester 1 email] |
-| Evaluation Requester 2 | Requester | [Insert requester 2 email] |
+| Evaluation Administrator | Administrator | admin@helpdesklite.com |
+| Evaluation Support Agent | Support Agent | amoyforbes@helpdesklite.com |
+| Evaluation Requester 1 | Requester | petagayesimpson@helpdesklite.com |
+| Evaluation Requester 2 | Requester | lincolnblackstock@helpdesklite.com |
 
 The accounts are created using the application's normal account-management and registration workflows.
 
-Passwords should be communicated securely to the lecturer separately and must not be committed to a public repository.
+Passwords will be listed in teams submission.
 
 ## 10. Demonstration Scenarios
 
@@ -295,8 +295,6 @@ The application can be demonstrated through the following workflows:
 12. Demonstrate Search and Filtering.
 13. Demonstrate the registration welcome email and ticket creation confirmation email.
 14. Demonstrate that one requester cannot access another requester's tickets or attachments.
-
-Only synthetic support information should be used during the assessment demonstration.
 
 ## 11. Security Controls
 
@@ -319,7 +317,7 @@ These include:
 - Generic production error responses.
 - Separation of application credentials from source code.
 
-The application should be operated over HTTPS in its hosted environment.
+The application operates over HTTPS in its hosted environment.
 
 ## 12. Production Deployment
 
@@ -341,8 +339,6 @@ The hosted application uses a protected PHP configuration file for:
 - Application environment.
 - Gmail SMTP settings.
 - Email sender details.
-
-Production credentials must never be included in GitHub.
 
 The Composer dependencies are installed locally and uploaded with the application.
 
@@ -390,7 +386,7 @@ Their respective licenses and documentation should be consulted when reusing or 
 
 Generative AI tools were used for planning, technical explanations, debugging assistance and documentation support during development.
 
-All AI-assisted work was reviewed and integrated into the project by the student. The student remains responsible for understanding, testing, demonstrating and explaining the submitted implementation.
+All AI-assisted work was reviewed and integrated into the project by the group members.
 
 ## 16. Project Documentation
 
@@ -415,7 +411,7 @@ It covers:
 
 **Project:** HelpDesk Lite
 
-**Submission date:** December 5, 2026
+**Submission date:** December 4, 2026
 
-**Project members:** [Insert group member names]
+**Project members:** Amoy Forbes, Lincoln Blackstock, Peta-Gaye Simpson, Javohn Lawrence
 

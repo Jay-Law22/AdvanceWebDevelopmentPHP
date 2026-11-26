@@ -6,7 +6,7 @@ A web-based IT support ticket management system developed for the **CS334 – Ap
 
 **Technical Documentation:** https://helpdesklite.kesug.com/docs/
 
-**GitHub Repository:** [Insert repository URL]
+**GitHub Repository:** https://github.com/Jay-Law22/AdvanceWebDevelopmentPHP
 
 ---
 
